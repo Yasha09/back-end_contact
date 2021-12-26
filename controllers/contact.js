@@ -120,7 +120,7 @@ exports.deleteContact = (req, res) => {
             res.status(200).json({
                 contacts: contactsDB,
                 errors: [],
-                successMsgs: [{ msg: 'Contact successfuly deleted' }],
+                successMsgs: [],
             });
         }
     } catch (err) {
